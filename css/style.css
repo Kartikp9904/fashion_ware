@@ -1,0 +1,252 @@
+* {margin: 0;padding: 0;}
+  body {font-family: 'Times New Roman', Times, serif;color: #fff;height: 100vh;line-height: 1.4;overflow: hidden;background-color: black;}
+/* ---------------------------------Header Section------------------------ */
+  .container1 {width: 100%;height: 100%;}
+  .lead {font-size: 1.5rem;}
+  .lead2{height: 400px;width: 90%;font-size: 16px;}
+  .navbar {position: fixed;top: 0;z-index: 1;display: flex;width: 100%;height: 100px;}
+  .navbar ul {display: flex;list-style: none;width: 100%;justify-content: space-evenly;}
+  .navbar ul li {align-self: center;margin: 0 1rem;padding: 1rem;}
+  .navbar ul li a {text-decoration: none;text-transform: uppercase;color: #f4f4f4;font-size: 22px;}
+  .navbar ul li button{ border: none; background-color: transparent; font-size: 22px;}
+  .navbar ul li button a{text-decoration: none;font-family: 'Times New Roman', Times, serif;text-transform: uppercase;color: #f4f4f4;}
+  .navbar ul li a:hover {color: #db9334;}
+  .navbar ul li button a:hover{color: #db9334;}
+  .logo{width: 230px; }
+.logo img{width: 100%;}
+.dropbtn {color: white;padding: 16px;font-family: 'Times New Roman', Times, serif; border: none;cursor: pointer;}
+.font-s-a{ font-size: 12px;}
+.dropdown { position: relative;display: inline-block;}
+.dropdown-content {display: none;position: absolute;background-color: #000000;min-width: 160px;overflow: auto;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
+.dropdown a:hover {background-color: #ddd;}
+.show {display: block;}
+/* ---------------------------------Header Section  Over------------------------ */
+  section {display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;width: 100%;height: 100vh;scroll-behavior: smooth;scroll-snap-align: center;}
+/* ---------------------------------Home Section------------------------ */
+  section h1 {font-size: 4rem;}
+ section ul { display: flex; list-style: none; width: 100%; justify-content: center;} 
+ section ul li{  align-self: center; margin: 0 1rem; padding: 1rem;}
+ section ul li button{ font-family: 'Times New Roman', Times, serif; border: 1px solid white; background-color: rgba(0, 0, 0, 0.600); padding: 10px 30px; margin: 10px; color: white; transition: transform .3s; font-size: 22px;}
+ .no-col{ text-decoration: none; color: white; text-transform: uppercase; }
+ section ul li button:hover{ transform: scale(1.5);} 
+  section#home {
+    animation: animate 16s ease-in-out infinite;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+  }
+  @keyframes animate{
+	0%,100%{
+		background-image: url(../images/bg1.png);
+
+	}
+	25%{
+		background-image: url(../images/bg2.png);
+	}
+	50%{
+		background-image: url(../images/bg3.jpg);
+	}
+	75%{
+		background-image: url(../images/bg4.jpg);
+	}
+}
+/* ---------------------------------Home Section Over------------------------ */
+/*----------------------------About Us Section-------------------------------*/
+section#about {
+  animation: animate2 16s ease-in-out infinite;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+  }
+  @keyframes animate2{
+    0%,100%{
+      background-image: url(../images/aboutus1.jpg);
+  
+    }
+    25%{
+      background-image: url(../images/aboutus2.jpg);
+    }
+    50%{
+      background-image: url(../images/aboutus3.jpg);
+    }
+    75%{
+      background-image: url(../images/aboutus4.jpg);
+    }
+  }
+  .scr-hid::-webkit-scrollbar {display: none;}
+  .ab-bg-co{background-color: rgba(0, 0, 0, 0.493); }
+  .wid{ width: 80%; height: 400px; overflow: scroll; color: #db9334; margin: auto;}
+/* ---------------------------------About Section Over------------------------ */
+  /*--------------------------------Service Section------------------------------*/
+  section#service {
+    animation: animate3 16s ease-in-out infinite;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  }
+  @keyframes animate3{
+    0%,100%{
+      background-image: url(../images/ser1.jpg);
+  
+    }
+    25%{
+      background-image: url(../images/ser2.jpg);
+    }
+    50%{
+      background-image: url(../images/ser3.jpg);
+    }
+    75%{
+      background-image: url(../images/ser4.jpg);
+    }
+  }
+
+  .services{background: rgb(0 0 0 / 60%);text-align: center;}
+  .services h1{display: inline-block;text-transform: uppercase;border-bottom: 4px solid #3498db;font-size: 20px;padding-bottom: 10px;margin-top: 40px;}
+  .cen{max-width: 1200px;margin: auto;overflow: hidden;padding: 20px;}
+  .service{display: inline-block;width: calc(100% / 3);margin: 0 -2px;padding: 20px;box-sizing: border-box;cursor: pointer;transition: 0.4s;}
+  .service:hover{background: #ddd;color: black;}
+  .service i{color: #db9334;font-size: 34px;margin-bottom: 30px;}
+  .service h2{font-size: 18px;text-transform: uppercase;font-weight: 500;margin: 0;}
+  .service p{color:#db9334;font-size: 15px;font-weight: 500;}
+/*--------------------------Contact Section--------------------------*/
+  section#contact { 
+    animation: animate4 16s ease-in-out infinite;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+  }
+  @keyframes animate4{
+    0%,100%{
+      background-image: url(../images/con1.jpg);
+  
+    }
+    25%{
+      background-image: url(../images/con2.jpg);
+    }
+    50%{
+      background-image: url(../images/con3.jpg);
+    }
+    75%{
+      background-image: url(../images//con4.jpg);
+    }
+  }
+  
+.container{position: relative;width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;}
+.container:after{content: '';position: absolute;width: 100%;height: 100%;left: 0;top: 0;filter: blur(50px);z-index: -1;}
+.contact-box{max-width: 850px;display: grid;grid-template-columns: repeat(2, 1fr);justify-content: center;align-items: center;text-align: center;background-color: rgb(0 0 0 / 0%);box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);}
+.left{opacity: 0.5;height: 100%;}
+.left:hover{ opacity: 1;}
+.right{padding: 25px 40px;}
+.right h2{position: relative;padding: 0 0 10px;margin-bottom: 10px;}
+.right h2:after{content: '';position: absolute;left: 50%;bottom: 0;transform: translateX(-50%);height: 4px;width: 50px;border-radius: 2px;background-color: orange;}
+.field{width: 100%;border: 2px solid rgba(0, 0, 0, 0);outline: none;background-color: rgba(230, 230, 230, 0.705);color: black;padding: 0.5rem 1rem;font-size: 1.1rem;margin-bottom: 22px;transition: .3s;}
+.field:hover{background-color: rgba(0, 0, 0, 0.1);}
+textarea{min-height: 150px;}
+.btn{width: 100%;padding: 0.5rem 1rem;background-color: orange;color: #fff;font-size: 1.1rem;border: none;outline: none;cursor: pointer;transition: .3s;text-align: center;}
+.btn:hover{background-color: green;}
+.field:focus{border: 2px solid rgba(30,85,250,0.47);background-color: #fff;}
+/*------------------------Login SignUp Forgot section---------------------*/
+  /*<--------------------- form ---------------------->*/
+  .midlvl{width: 100%;height: 100vh;overflow: hidden;display: flex;align-items: center;justify-content: center;cursor: pointer;}
+  table{filter: none;background-color: rgba(255, 255, 255, 0.63);padding: 10px;box-shadow: black 0px 0px 8px;border-radius: 15px;margin: auto;}
+  td{padding: 5px;}
+  table tr td h2 { color: black;}
+  input:focus{outline: none;}
+  ::placeholder{color: rgba(0, 0, 0, 0.753);}
+  .btn_color{font-weight: bold;font-size: 20px;margin: auto;display: block;padding: 5px 100px;background-color: #db6934 ;border: rgb(0, 0, 0) 2px solid;border-radius: 10px;}
+  .linka{font-size: 20px;border: solid 2px rgb(0, 0, 0);border-radius: 10px;background-color: #db6934;font-weight:bold;color: black;display: inline-block;padding: 5px 40px;text-decoration: none;}
+  .input_color{height: 30px;width: 100%;color: rgb(0, 0, 0);text-indent: 10px;font-size: 18px;border: 2px solid black;border-radius: 0px 0px 10px 0px;box-shadow: 4px 0px 3px rgb(0, 0, 0);font-family: 'Times New Roman', Times, serif;background-color: transparent; transition: height 0.3s;}
+  .txtcol:hover{font-weight:bold;box-shadow: 0px 0px 8px violet;color: yellow;}
+/*------------------------login section---------------------*/
+  section#login{ 
+    animation: animate5 16s ease-in-out infinite;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+  }
+  @keyframes animate5{
+    0%,100%{
+      background-image: url(../images/login1.jpg);
+  
+    }
+    25%{
+      background-image: url(../images/login2.jpg);
+    }
+    50%{
+      background-image: url(../images/login3.jpg);
+    }
+    75%{
+      background-image: url(../images/login4.jpg);
+    }
+  }
+/*------------------------Login Section Over---------------------*/
+/*------------------------Register section---------------------*/
+  section#register{ 
+    animation: animate6 16s ease-in-out infinite;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+  }
+  @keyframes animate6{
+    0%,100%{
+      background-image: url(../images/login1.jpg);
+  
+    }
+    25%{
+      background-image: url(../images/login2.jpg);
+    }
+    50%{
+      background-image: url(../images/login3.jpg);
+    }
+    75%{
+      background-image: url(../images/login4.jpg);
+    }
+  }
+/*------------------------Register section Over---------------------*/
+/*----------------------------- Forgot Pass Section --------------------*/
+  section#forgotpass {
+    animation: animate7 16s ease-in-out infinite;
+    background: no-repeat center center/cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+  }
+  @keyframes animate7{
+	0%,100%{
+		background-image: url(../images/forpass1.jpg);
+
+	}
+	25%{
+		background-image: url(../images/forpass2.jpg);
+	}
+	50%{
+		background-image: url(../images/forpass3.jpg);
+	}
+	75%{
+		background-image: url(../images/forpass4.jpg);
+	}
+}
+/*------------------------Forgot Pass Section Over---------------------*/
+/*----------------------------- Verify Section --------------------*/
+section#verify {
+  animation: animate8 16s ease-in-out infinite;
+  background: no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+@keyframes animate8{
+0%,100%{
+  background-image: url(../images/forpass1.jpg);
+
+}
+25%{
+  background-image: url(../images/forpass2.jpg);
+}
+50%{
+  background-image: url(../images/forpass3.jpg);
+}
+75%{
+  background-image: url(../images/forpass4.jpg);
+}
+}
+/*------------------------Verify Section Over---------------------*/
