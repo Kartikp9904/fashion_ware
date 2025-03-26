@@ -230,11 +230,11 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `fname`, `email`, `email_status`, `pnumber`, `uname`, `pass`, `realpass`, `email_otp`) VALUES
-(1, 'Kartik Patel', 'Kartikp9904@gmail.com', 'verifed', '9898083823', 'Kartik2032', '095db49fdc87a6bd13cecff407c54e96', 'Kartikp9904', 113946),
-(2, 'Naruto', 'narutoyt812@gmail.com', 'verifed', '9898083823', 'Narutoyt', '6424a2e9d3c60edb6154c822c759b308', 'narutoyt', 0),
-(3, 'Riddhi', 'riddhinayi2003@gmail.com', 'verifed', '9427108101', 'riddhi2032', '7e5be18f58a2c318437bfc2a24ed7adb', 'Riddhinayi', 942710),
-(18, 'Vidhi', 'vbchauhan2001@gmail.com', 'verifed', '88885885', 'vidhi', '140362895bb6a05eed71d66b03b95553', 'vidhi', 240676),
-(19, 'Kinjal', 'kinjujagtap22@gmail.com', 'verifed', '7433837432', 'kinju', '8f6aedaad5eeb37f91ee51be4876a347', 'kinju123', 338717);
+(1, 'Kartik Patel', 'Kartikp9904@gmail.com', 'verifed', '0000000000', 'Kartik2032', '095db49fdc87a6bd13cecff407c54e96', 'Kartikp9904', 113946),
+(2, 'Naruto', 'narutoyt812@gmail.com', 'verifed', '0000000000', 'Narutoyt', '6424a2e9d3c60edb6154c822c759b308', 'narutoyt', 0),
+(3, 'Riddhi', 'riddhinayi2003@gmail.com', 'verifed', '0000000000', 'riddhi2032', '7e5be18f58a2c318437bfc2a24ed7adb', 'Riddhinayi', 942710),
+(18, 'Vidhi', 'vbchauhan2001@gmail.com', 'verifed', '0000000000', 'vidhi', '140362895bb6a05eed71d66b03b95553', 'vidhi', 240676),
+(19, 'Kinjal', 'kinjujagtap22@gmail.com', 'verifed', '0000000000', 'kinju', '8f6aedaad5eeb37f91ee51be4876a347', 'kinju123', 338717);
 
 --
 -- Indexes for dumped tables
