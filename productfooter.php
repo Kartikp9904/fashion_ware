@@ -51,8 +51,7 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p><i class="fa fa-home mr-3"></i>Government Engineering College, Patan, Gujarat, India</p>
-            <p><i class="fa fa-envelope mr-3"></i>vbchauhan2001@gmail.com</p>
-            <p><i class="fa fa-phone mr-3"></i> +91 9427108101</p>
+            <p><i class="fa fa-envelope mr-3"></i>email@gmail.com</p>
             <p><i class="fa fa-print mr-3"></i> +91 9898083823</p>
           </div>
           <!-- Grid column -->
